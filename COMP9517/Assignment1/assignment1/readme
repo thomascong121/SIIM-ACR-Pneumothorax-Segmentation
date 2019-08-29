@@ -1,0 +1,22 @@
+1. how to run:
+run code by typing (in terminal):
+	 python3 assignment1_1_Test.py image path
+need to set kernel size and threshold value manually in the "assignment1_1_Test.py" file.
+
+2. how to select different filtering methods:
+You can choose to run different filtering method by giving value to "GaussianBlur" or "median_blur", the value given to median_blur
+will be the kernel size, and the value given to GaussianBlur should be a list, the first element in the list is the kernel size and the second and third
+element are the derivation of x and y direction respectively.
+
+3.main function
+  - draw_plots(img,threshold_value,maxVal,adpt_mean=11,adpt_gaussian=11,C=2,median_blur=False,GaussianBlur=False)
+  	has 6 parameters:
+  	- img: input image path (necessary)
+  	- threshold_value: threshold value for global thresholding algorithms (necessary)
+  	- maxVal: the intensity value that will be set to when larger or smaller than the 	threshold_value (necessary)
+  	- adpt_mean/adpt_gaussian: block size for adaptive thresholding (default value = 11)
+  	- C: constant that need to be minus from mean (default value = 2)
+  	- median_blur: median filtering will be applied if given a kernel size
+  	- GaussianBlur: Gaussian filtering will be applied if given a kernel size
+
+  

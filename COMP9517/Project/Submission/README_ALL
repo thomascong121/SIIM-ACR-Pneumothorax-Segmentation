@@ -1,0 +1,25 @@
+This is a README file which describes the contribution of each team member and zipped files of our works:
+####################
+##Machine LEARNING##
+####################
+
+1.Guanqun Zhou - z5174741
+	- Codes are zipped in the file "GuanqunZhouZ5174741.zip"
+	- Codes for training SVM model with feature extraction. 
+2. Xiao Tan - z3413898
+	- Codes are zipped in the file "XiaoTanZ3413898.zip"
+	- Codes for training Random Forest model with LBP features. 
+3. Zixin Fang - z5210737
+	- Codes are zipped in the file "ZixinFangZ5210737.zip"
+	- Codes for adding Haralick feature based on Xiao Tan's code
+	- Codes for extracting more features based on Guanqun Zhou's code
+
+#################
+##DEEP LEARNING##
+#################
+4. Cong Cong - z3414050
+	- Codes are zipped in the file "CongCongZ3414050.zip"
+	- Code for building U-net model and ResUnet model
+5. Fan Liu - z5188300
+    	- Codes are zipped in the file "FanLiuZ5188300.zip"
+	- Code for using Sampling Patch and building U-net model.
